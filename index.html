@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <!-- 文字コードはUTF-8を指定 -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- noindex -->
+    <meta name="robots" content="noindex" />
+    <!-- レスポンシブ表示の記述 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- サイトのタイトル記述 -->
+    <title>株式会社KK建設</title>
+    <!-- サイトの概要を記述 -->
+    <meta name="description" content="株式会社KK建設について" />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- wow -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.6.2/animate.min.css"
+    />
+    <!-- スタイルシートを記述(headタグの直前) -->
+    <link rel="stylesheet" href="./css/destyle.css" />
+    <!-- 読み込み順はresetが上 -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header js-header">
+      <div class="header__inner inner">
+        <h1 class="header__logo">
+          <a href="#">株式会社KK建設</a>
+        </h1>
+        <nav class="header__nav">
+          <a href="#recruit" class="header__link">リクルート</a>
+          <a href="#service" class="header__link">事業紹介</a>
+          <a href="#works" class="header__link">施工実績</a>
+          <a href="#building" class="header__link">建材関連</a>
+          <a href="#about" class="header__link">会社概要</a>
+          <a href="#news" class="header__link">お知らせ</a>
+        </nav>
+        <div class="header__contact">
+          <div class="header__contact-top">
+            <img src="./img/header-contact.png" loading="lazy" alt="contact" />
+          </div>
+          <a href="#" class="header__contact-bottom">
+            <span>お問い合わせ</span>
+          </a>
+        </div>
+        <button id="js-drawer-icon" class="header__open drawer-icon">
+          <span class="drawer-icon__bar"></span>
+          <span class="drawer-icon__bar"></span>
+          <span class="drawer-icon__bar"></span>
+        </button>
+      </div>
+    </header>
+
+    <div id="js-drawer-content" class="drawer-content">
+      <nav class="drawer-content__menu">
+        <a href="#recruit" class="drawer-content__link">リクルート</a>
+        <a href="#service" class="drawer-content__link">事業紹介</a>
+        <a href="#works" class="drawer-content__link">施工実績</a>
+        <a href="#building" class="drawer-content__link">建材関連</a>
+        <a href="#about" class="drawer-content__link">会社概要</a>
+        <a href="#news" class="drawer-content__link">お知らせ</a>
+        <a href="#contact" class="drawer-content__link">お問い合わせ</a>
+      </nav>
+    </div>
+
+    <!-- mv -->
+    <div class="mv">
+      <div class="mv__inner">
+        <div class="mv__body">
+          <p class="mv__title">
+            地球にやさしく<br />
+            未来をつくる
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- news -->
+    <div id="news" class="news">
+      <div class="news__inner">
+        <div class="news__wrapper">
+          <p class="news__left wow fadeInUp" data-wow-delay=".3s">お知らせ</p>
+          <div class="news__rights">
+            <a href="#" class="news__right wow fadeInUp" data-wow-delay=".3s">
+              <div class="news__meta">
+                <p class="news__date">2020.09.09</p>
+                <p class="news__label">お知らせ</p>
+              </div>
+              <p class="news__title">記事が入ります。記事が入ります。</p>
+            </a>
+            <a href="#" class="news__right wow fadeInUp" data-wow-delay=".3s">
+              <div class="news__meta">
+                <p class="news__date">2020.09.09</p>
+                <p class="news__label label2">地域の皆様へ</p>
+              </div>
+              <p class="news__title">記事が入ります。記事が入ります。</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- recruit -->
+    <section id="recruit" class="recruit section">
+      <div class="recruit__inner inner">
+        <h2 class="section__head">
+          <span class="section__title">リクルート</span>
+          <span class="section__sub-title">RECRUIT</span>
+        </h2>
+        <div class="recruit__wrapper">
+          <div class="recruit__left wow fadeInUp" data-wow-delay=".3s">
+            <h3 class="recruit__title">正社員を募集しています</h3>
+            <p class="recruit__text">
+              未経験でも働きやい社内環境をご用意致します。<br />
+              テキストが入ります。この文章はダミーです。テキストが入ります。この文章はダミーです。テキストが入ります。この文章はダミーです。テキストが入ります。この文章はダミーです。
+            </p>
+            <div class="section__link">
+              <a href="#">READ MORE</a>
+            </div>
+          </div>
+          <div class="recruit__right wow fadeInUp" data-wow-delay=".4s">
+            <img src="./img/recruit.jpg" loading="lazy" alt="recruit" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- service -->
+    <section id="service" class="service section">
+      <div class="service__inner inner">
+        <h2 class="section__head wow fadeInUp" data-wow-delay=".3s">
+          <span class="section__title">事業紹介</span>
+          <span class="section__sub-title">SERVICE</span>
+        </h2>
+        <p class="service__text wow fadeInUp" data-wow-delay=".3s">
+          上下水道工事・土木工事は<br class="pc-hidden" />株式会社KK建設へ
+        </p>
+        <p class="service__text2 wow fadeInUp" data-wow-delay=".3s">
+          当社は舗装工事をはじめ上下水道工事をメインに請け負っています。<br />
+          テキストが入ります。この文章はダミーです。当社は舗装工事をはじめ上下水道工事をメインに請け負っています。
+        </p>
+        <div class="service__wrapper">
+          <div class="service__left wow fadeInUp" data-wow-delay=".3s">
+            <h3 class="service__title">上下水道工事</h3>
+            <div class="service__image">
+              <img src="./img/service1.jpg" loading="lazy" alt="service1" />
+            </div>
+          </div>
+          <div class="service__right wow fadeInUp" data-wow-delay=".4s">
+            <h3 class="service__title">舗装工事</h3>
+            <div class="service__image">
+              <img src="./img/service2.jpg" loading="lazy" alt="service2" />
+            </div>
+          </div>
+        </div>
+        <div
+          class="section__link section__link2 wow fadeInUp"
+          data-wow-delay=".3s"
+        >
+          <a href="#">READ MORE</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- works -->
+    <section id="works" class="works section">
+      <div class="works__inner inner">
+        <h2 class="section__head wow fadeInUp" data-wow-delay=".3s">
+          <span class="section__title">施工実績</span>
+          <span class="section__sub-title">works</span>
+        </h2>
+        <div class="works__items">
+          <div class="works__item wow fadeInUp" data-wow-delay=".3s">
+            <div class="works__image">
+              <img src="./img/works1.jpg" loading="lazy" alt="works1" />
+            </div>
+            <h3 class="works__title">下水道局より表彰を受けました</h3>
+            <p class="works__tag">#タグ</p>
+          </div>
+          <div class="works__item wow fadeInUp" data-wow-delay=".4s">
+            <div class="works__image">
+              <img src="./img/works2.jpg" loading="lazy" alt="works2" />
+            </div>
+            <h3 class="works__title">下水道局より表彰を受けました</h3>
+            <p class="works__tag">#タグ</p>
+          </div>
+          <div class="works__item wow fadeInUp" data-wow-delay=".5s">
+            <div class="works__image">
+              <img src="./img/works3.jpg" loading="lazy" alt="works3" />
+            </div>
+            <h3 class="works__title">下水道局より表彰を受けました</h3>
+            <p class="works__tag">#タグ</p>
+          </div>
+        </div>
+        <div
+          class="section__link section__link2 wow fadeInUp"
+          data-wow-delay=".3s"
+        >
+          <a href="#">READ MORE</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- about -->
+    <section class="about">
+      <div class="about__inner">
+        <div class="about__wrapper">
+          <div id="building" class="about__left">
+            <h2 class="about__title wow fadeInUp" data-wow-delay=".3s">
+              建材関連
+            </h2>
+            <p class="about__sub-title wow fadeInUp" data-wow-delay=".3s">
+              MATERIALS
+            </p>
+          </div>
+          <div id="about" class="about__right">
+            <h2 class="about__title wow fadeInUp" data-wow-delay=".3s">
+              会社概要
+            </h2>
+            <p class="about__sub-title wow fadeInUp" data-wow-delay=".3s">
+              ABOUT
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact -->
+    <section id="contact" class="contact section">
+      <div class="contact__inner inner">
+        <h2 class="section__head">
+          <span class="section__title wow fadeInUp" data-wow-delay=".3s"
+            >お問い合わせ</span
+          >
+        </h2>
+        <div class="contact__wrapper">
+          <div class="contact__left wow fadeInUp" data-wow-delay=".3s">
+            <p class="telfax">電話/FAX</p>
+            <p class="tel">TEL:03-1234-5678</p>
+            <p class="fax">FAX:03-4567-1234</p>
+          </div>
+          <div class="contact__right wow fadeInUp" data-wow-delay=".4s">
+            <p class="form">フォームからのお問い合わせ</p>
+            <div class="section__link section__link3">
+              <a href="#">お問い合わせ</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer__inner inner">
+        <div class="footer__wrapper">
+          <div class="footer__left">
+            <h2 class="footer__logo">株式会社KK建設</h2>
+            <p class="adress">〒123-0045 東京都東京架空1-1-1</p>
+            <p class="adress__tel">TEL:03-1234-5678</p>
+            <p class="adress__fax">FAX:03-4567-1234</p>
+          </div>
+          <div class="footer__right">
+            <p class="menu">サイトメニュー</p>
+            <nav class="header__nav header__nav2">
+              <a href="#recruit" class="header__link header__link2"
+                >リクルート</a
+              >
+              <a href="#service" class="header__link header__link2">事業紹介</a>
+              <a href="#works" class="header__link header__link2">施工実績</a>
+              <a href="#building" class="header__link header__link2"
+                >建材関連</a
+              >
+              <a href="#about" class="header__link header__link2">会社概要</a>
+              <a href="#news" class="header__link header__link2">お知らせ</a>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <p class="copyright">
+        Copyright &copy; 株式会社KK建設 All Rights Reserved.
+      </p>
+    </footer>
+
+    <!-- js  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
